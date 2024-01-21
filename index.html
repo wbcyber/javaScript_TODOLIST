@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta charset="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = yes">
+	<title>My first todo list</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<form id = "container" name = "formContainer" action="/dee">
+		<h1>Dee.gitals_TODO LIST</h1>
+		<section class="aSection">
+			<label>Task</label>
+			<input type="text" name="inputTask" placeholder="Enter task" id= "task"><br>
+			<label>Time</label>
+			<input type="text" name="inputTime" placeholder="Enter time" id= "time"><br>
+			<button type="submit" id="add" name="addButton">Add Task</button>
+		</section>
+
+		<section class='aSection' id="showTask">
+		</section>
+		<section class='aSection' id="savedTask">
+		</section>
+
+	</form>
+	
+	<script  src="function.js"></script>
+
+</body>
+</html>
+

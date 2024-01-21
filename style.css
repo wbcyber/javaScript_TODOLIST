@@ -1,0 +1,24 @@
+#container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 68.75rem;
+	margin: auto;
+	flex-direction: column;
+}
+.aSection{
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	box-shadow: 0 3px 10px;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 11px;
+
+}
+#showTask{
+	visibility: hidden;
+}
+#savedTask{
+	visibility: hidden;
+}
