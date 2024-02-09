@@ -23,7 +23,7 @@ const button = document.createElement('label');
 const button1 = document.createElement('label');
 console.dir(Task)
 const addTask = (Time, Task) => {
-	if (Task.value === "" || Time.value === "" ){
+	if (Task === "" || Time === "" ){
 		alert("please enter your task and time")
 		
 	} else{
